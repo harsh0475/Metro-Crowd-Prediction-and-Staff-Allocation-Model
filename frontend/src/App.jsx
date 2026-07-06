@@ -12,7 +12,7 @@ function App() {
       <div className="min-h-screen bg-base-200">
         <Navbar />
 
-        <main className="mx-auto max-w-7xl p-6">
+        <main className="mx-auto max-w-7xl p-4 sm:p-6">
           <Routes>
             <Route
               path="/"

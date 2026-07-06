@@ -7,7 +7,7 @@ function PredictionResult({ data = [] }) {
             No Prediction Available
           </h2>
 
-          <p className="text-gray-500">
+          <p className="text-base-content/50">
             Click Predict to view results.
           </p>
         </div>

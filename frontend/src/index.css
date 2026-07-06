@@ -4,39 +4,39 @@
 }
 
 @plugin "daisyui/theme" {
-  name: "metro-corporate";
+  name: "metro-corporate-dark";
   default: true;
-  prefersdark: false;
-  color-scheme: light;
+  prefersdark: true;
+  color-scheme: dark;
 
-  --color-base-100: #ffffff;
-  --color-base-200: #f4f6f8;
-  --color-base-300: #e2e6ea;
-  --color-base-content: #1f2933;
+  --color-base-100: #141b26;
+  --color-base-200: #0c1119;
+  --color-base-300: #26313f;
+  --color-base-content: #e5e9f0;
 
-  --color-primary: #1e3a5f;
+  --color-primary: #3b82f6;
   --color-primary-content: #ffffff;
 
-  --color-secondary: #475569;
+  --color-secondary: #64748b;
   --color-secondary-content: #ffffff;
 
-  --color-accent: #0f6d66;
-  --color-accent-content: #ffffff;
+  --color-accent: #14b8a6;
+  --color-accent-content: #04201c;
 
-  --color-neutral: #1f2933;
-  --color-neutral-content: #f4f6f8;
+  --color-neutral: #1e2732;
+  --color-neutral-content: #e5e9f0;
 
-  --color-info: #0369a1;
-  --color-info-content: #ffffff;
+  --color-info: #38bdf8;
+  --color-info-content: #04202c;
 
-  --color-success: #15803d;
-  --color-success-content: #ffffff;
+  --color-success: #22c55e;
+  --color-success-content: #04200d;
 
-  --color-warning: #b45309;
-  --color-warning-content: #ffffff;
+  --color-warning: #f59e0b;
+  --color-warning-content: #241300;
 
-  --color-error: #b91c1c;
-  --color-error-content: #ffffff;
+  --color-error: #f87171;
+  --color-error-content: #250505;
 
   --radius-selector: 0.375rem;
   --radius-field: 0.375rem;
@@ -59,7 +59,7 @@ body,
 body {
   margin: 0;
   font-family: Inter, sans-serif;
-  background-color: #f4f6f8;
+  background-color: #0c1119;
 }
 
 /* Consistent formal section heading style used across pages */
@@ -67,11 +67,11 @@ body {
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.01em;
-  color: #1f2933;
+  color: #e5e9f0;
 }
 
 .page-subtitle {
   font-size: 0.875rem;
-  color: #64748b;
+  color: #94a3b8;
   margin-top: 0.25rem;
 }
