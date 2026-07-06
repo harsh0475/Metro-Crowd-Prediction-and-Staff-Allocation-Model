@@ -1,0 +1,16 @@
+Feature,Importance
+station,0.2546419
+booking_counter,0.19538288
+hour,0.10138686
+time_slot,0.07568235
+year,0.06705835
+shift,0.049947288
+week_of_year,0.043499313
+quarter,0.037785094
+month,0.03599057
+is_weekend,0.03401579
+is_month_start,0.030833347
+day_of_week,0.024244195
+peak_hour,0.018178914
+day,0.0169125
+is_month_end,0.014440802

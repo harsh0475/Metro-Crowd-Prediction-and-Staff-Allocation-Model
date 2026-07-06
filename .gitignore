@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.env
+
+# Heavy training data (not needed for the live API)
+data/processed/
+data/features/
+
+# OS
+.DS_Store

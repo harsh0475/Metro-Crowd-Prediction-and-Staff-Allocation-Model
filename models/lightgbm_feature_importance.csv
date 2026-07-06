@@ -1,0 +1,16 @@
+Feature,Importance
+station,8617
+hour,5099
+booking_counter,2519
+week_of_year,2481
+day,1570
+day_of_week,1342
+month,767
+time_slot,569
+quarter,433
+year,208
+peak_hour,166
+shift,102
+is_weekend,53
+is_month_end,50
+is_month_start,24
